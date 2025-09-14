@@ -1,70 +1,75 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Lisha Naik - 
+Runway Ready: A Modern Shoe E-commerce Site 👟
+Welcome to Runway Ready, a dynamic and interactive e-commerce website for shoes. This project demonstrates core concepts of React and modern web development, including state management, component reusability, and user-friendly features like a shopping cart and a live chat simulation.
 
-## Available Scripts
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-In the project directory, you can run:
+- Live Demo & Repository
+[Live Site](https://shoe-collection-kappa.vercel.app/#)
+[GitHub Repository](https://github.com/Lishanaik11/ShoeCollection)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### `npm start`
+* Features
+- Product Catalog: Browse a selection of shoes with details like price, stock, and images.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Shopping Cart: Add products to a cart, track the total number of items, and view cart contents.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Dynamic UI: Product stock updates automatically when an item is added to the cart.
 
-### `npm test`
+- Product Details Modal: Click on a product to view more details in a pop-up modal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Checkout Form: A simulated checkout process with a simple payment form and dynamic alerts.
 
-### `npm run build`
+- User Chat: A simulated chat component using React class components to demonstrate lifecycle methods (componentDidMount, componentDidUpdate, componentWillUnmount).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Component-Based Architecture: The application is built with a modular structure, using reusable components for the banner, product cards, shopping cart, and chat.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ Project Structure :
+The project follows a logical folder structure to keep components and assets organized.
 
-### `npm run eject`
+Bash
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+src/
+├────
+│   ├── App.css
+│   ├── App.js           # Main application component
+│   ├── Banner.js        # The top banner component
+│   ├── CheckoutForm.js  # Payment modal component
+│   ├── Product.js       # Component for a single product card
+│   ├── ProductPanel.js  # Renders the list of products
+│   ├── ShoppingCart.js  # Cart display and checkout button
+│   └── UserChat.js      # Chat simulation component
+├── image/
+│   ├── Nike.jpg
+│   ├── Adidas.jpg
+│   ├── Reebok.jpg
+│   └── Puma.png
+├── index.css
+└── index.js             # Entry point of the application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Technologies Used :
+React: The core JavaScript library for building the user interface.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React Hooks: useState and useContext for managing application state and sharing data between components.
 
-## Learn More
+JavaScript (ES6+): For all application logic.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+CSS: For styling the application, including a clean and responsive layout.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Vite/CRA: The project is set up using a standard React build tool.
 
-### Code Splitting
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📧 Contact
+Email: [lishanaik11@gmail.com](mailto:lishanaik11@gmail.com)
 
-### Analyzing the Bundle Size
+GitHub: [https://github.com/Lishanaik11](https://github.com/Lishanaik11)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+LinkedIn: [https://www.linkedin.com/in/lisha-naik-20a761384](https://www.linkedin.com/in/lisha-naik-20a761384)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
